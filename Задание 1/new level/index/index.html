@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-
+<html lang="ru">
+    
 <html>
 
 <head>
@@ -10,7 +11,7 @@
 <h1>Сайт-веселье</h1>
 <h3>Как говорится: "World is Mine"~</h3>
 
-<h2><p id="Список"> Список гиперссылок: </p></h2>
+<h2><div id="Список"> Список гиперссылок: </div></h2>
 <ul>
     <li> <a href="http://kubsu.ru/" target="_blank">Абсолютная гиперссылка на главную страницу сайта КубГУ</a></li>
     <li> <a href="https://kubsu.ru/" target="_blank">Абсолютная гиперссылка на главную страницу сайта КубГУ в протоколе https</a></li>
@@ -56,42 +57,42 @@
 <form action="URL_отправки_данных" method="POST">
 
     <label>
-        ФИО:<br />
-        <input name="field-name-1" value="" />
-    </label><br />
+        ФИО:<br/>
+        <input name="field-name-1" value=""/>
+    </label><br/>
 
     <label>
-        Номер телефона:<br />
+        Номер телефона:<br/>
         <input name="field-email"
                value=""
-               type="tel" />
-    </label><br />
+               type="tel"/>
+    </label><br/>
 
     <label>
-        Email:<br />
+        Email:<br/>
         <input name="field-email"
                value=""
-               type="email" />
-    </label><br />
+               type="email"/>
+    </label><br/>
 
     <label>
-        Дата рождения:<br />
+        Дата рождения:<br/>
         <input name="field-date"
                value=""
-               type="date" />
-    </label><br />
+               type="date"/>
+    </label><br/>
 
-    Пол:<br />
+    Пол:<br/>
     <label><input type="radio" checked="checked"
-                  name="radio-group-1" value="Значение1" />
+                  name="radio-group-1" value="Значение1"/>
         Женский</label>
     <label><input type="radio"
-                  name="radio-group-1" value="Значение2" />
-        Мужской</label><br />
+                  name="radio-group-1" value="Значение2"/>
+        Мужской</label><br/>
 
     <label>
         Любимый язык программирования:
-        <br />
+        <br/>
         <select name="field-name-4[]"
                 multiple="multiple">
             <option value="Значение1">Pascal</option>
@@ -106,17 +107,17 @@
             <option value="Значение3" selected="selected">Prolog
             <option value="Значение3" selected="selected">Scala
         </select>
-    </label><br />
+    </label><br/>
 
     <label>
-        Биография:<br />
+        Биография:<br/>
         <textarea name="field-name-2"></textarea>
-    </label><br />
+    </label><br/>
 
-    С контрактом ознакомлен:<br />
-    <label><input type="checkbox" checked="checked" name="check-1" />
-    </label><br />
-    <input type="submit" value="Сохранить" />
+    С контрактом ознакомлен:<br/>
+    <label><input type="checkbox" checked="checked" name="check-1"/>
+    </label><br/>
+    <input type="submit" value="Сохранить"/>
 
 </form>
 </body>
