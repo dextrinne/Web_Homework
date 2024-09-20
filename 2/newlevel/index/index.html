@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<link rel="stylesheet" href="style/style.css">
+
+<head>
+    <title>⋆｡˚ ☁︎ ˚｡⋆</title>
+</head>
+
+<header> 
+    <img id="logo" alt="header_logo" src="style/logo.jpg">
+    <nav> 
+      <ul>
+        <li> <a href="./file(0).html" target="_blank"> Страница 3 </a></li>
+        <li> <a href="./about/p0.html" target="_blank"> Страница 2 </a></li>
+        <li> <a href="../p2.html" target="_blank"> Страница 1 </a></li>
+      </ul>
+    </nav>
+    <h1 id="name">"World is Mine"~</h1>
+</header>
+
+<div class='based'>
+<body>
+    
+    <h2>Список гиперссылок:</h2>
+    <ul>
+        <li> <a href="http://kubsu.ru/" target="_blank">Абсолютная гиперссылка на главную страницу сайта КубГУ</a></li>
+        <li> <a href="https://kubsu.ru/" target="_blank">Абсолютная гиперссылка на главную страницу сайта КубГУ в протоколе https</a></li>
+        <li> <a href="https://vocaloid.fandom.com/wiki/Hatsune_Miku" target="_blank"> <img src="img1.jpg" alt="first_MikuBob" width="220" title="Нажмите, чтобы узнать, кто на картинке"></a></li>
+        <li> <a href="./about/p0.html" target="_blank"> Сокращенная ссылка на внутреннюю страницу</a></li>
+        <li> <a href="./index.html" target="_blank"> Сокращенная ссылка на главную страницу</a></li>
+        <li> <a href="#form"> Ссылка на форму (фрагмент текущей страницы)</a></li>
+        <li> <a href="https://example.com/page?first=value1&second=value2&third=value3" target="_blank"> Ссылка с тремя параметрами в URL</a></li>
+        <li> <a href="https://www.example.com/products?cat=electronics&id=456" target="_blank"> Ссылка с параметром id в URL</a></li>
+        <li> <a href="./file(0).html" target="_blank"> Относительная ссылка на страницу в текущем каталоге</a></li>
+        <li> <a href="./about/p0.html" target="_blank"> Относительная ссылка в каталоге about </a></li>
+        <li> <a href="../p2.html" target="_blank"> Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+        <li> <a href="../../p3.html" target="_blank"> Относительная ссылка на страницу в каталоге на два уровня выше текущего</a></li>
+        <li> Маскот-звёздочка этого веселья в виде сайта – <a href="https://www.youtube.com/watch?v=jhl5afLEKdo" target="_blank"> Хатсуне Мику!</a></li>
+        <li> <a href="https://vocaloid.fandom.com/wiki/Hatsune_Miku#:~:text=On%20this%20wiki%2C%20Hatsune%20Miku%20is%20featured%20in%202%2C601%20songs%20%2C%201%2C105%20albums%20%2C%2055%20series%20%2C%2069%20events." target="_blank"> Ссылка на фрагмент страницы стороннего сайта</a></li>
+
+        <li> Ссылка из прямоугольных и круглых областей картинки (HTML-тег map):</li>
+    </ul>
+
+     <div class = 'img'><img src="img2.jpg" width="220" height="220" alt="second_MikuBob" usemap="#map"></div>
+            
+    <ul>
+        <li> <a href="" target="_blank"> Ссылка с пустым href</a></li>
+        <li> <a> Ссылка без href</a></li>
+        <li> <a href="index.html" target="_blank" rel="nofollow"> Ссылка, по которой запрещён переход поисковиками</a></li>
+        <li> <a href="index.html" target="_blank" rel="noindex"> Ссылка, запрещённая для индексации поисковиками</a></li>
+        <li> Субъективный топ лучших песен с участием Мику:
+            <ol>
+            <li><a href="https://www.youtube.com/watch?v=OuLZlZ18APQ" title="39 music! " target="_blank"> Mikito-P – 39みゅーじっく！</a></li>
+            <li><a href="https://www.youtube.com/watch?v=ZB75e7vzX0I" title="World's End Dancehall" target="_blank"> wowaka – ワールズエンド・ダンスホール</a></li>
+            <li><a href="https://www.youtube.com/watch?v=P_CSdxSGfaA" title="Unknown Mother-Goose" target="_blank"> wowaka – アンノウン・マザーグース</a></li>
+            </ol>
+        </li>
+        <li> <a href="ftp://user:password@tavalik.ru/Temp/file.txt" target="_blank"> Ссылка на файл на сервере FTP с авторизацией</a></li>
+    </ul>
+    <map name = "map">
+        <area shape="rect" coords="0,0,220,100" href="https://www.youtube.com/watch?v=PycjVpYpJHA" alt="Прямоугольная область" title="Прямоугольная область" target="_blank">
+        <area shape="circle" coords="100,150,50" href="https://www.youtube.com/watch?v=jhl5afLEKdo" alt="Круглая область" title="Круглая область" target="_blank">
+    </map>
+     
+    <h2> Таблица</h2>
+    <table>
+        <tr id="nametb">
+          <th>Имя войсбанка</th>
+          <th>Версии "VOCALOID", поддерживающие войсбанк</th>
+          <th>Поддерживаемые языки для имитации речи</th>
+          <th>Визуализация</th>
+        </tr>
+
+        <tr class="tb">
+          <td  colspan = "4">Все войсбанки компании "Crypton Future Media, Inc."</td>
+        </tr>
+
+        <tr>
+          <td>Hatsune Miku</td>
+          <td>VOCALOID2, VOCALOID3, VOCALOID4</td>
+          <td>Японский, Английский, Китайский</td>
+          <td><img src="style/miku.png" width="225" height="250" alt="Hatsune Miku"></td>
+        </tr>
+
+        <tr class="tb">
+            <td>Megurine Luka</td>
+            <td>VOCALOID2, VOCALOID4</td>
+            <td>Японский, Английский</td>
+            <td><img src="style/luka.png" width="225" height="250" alt="Megurine Luka"></td>
+        </tr>
+
+        <tr >
+            <td>Kagamine Rin/Len</td>
+            <td>VOCALOID2, VOCALOID4</td>
+            <td>Японский, Английский</td>
+            <td><img src="style/kagamine.png" width="225" height="250" alt="Kagamine Rin/Len"></td>
+        </tr>
+
+        <tr class="tb">
+            <td>KAITO</td>
+            <td>VOCALOID, VOCALOID3, VOCALOID4</td>
+            <td>Японский, Английский</td>
+            <td><img src="style/kaito.png" width="225" height="250" alt="KAITO"></td>
+        </tr>
+
+        <tr>
+            <td>MEIKO</td>
+            <td>VOCALOID, VOCALOID3, VOCALOID4</td>
+            <td>Японский, Английский</td>
+            <td><img src="style/meiko.png" width="225" height="250" alt="MEIKO"></td>
+          </tr>
+      </table>
+
+    <div id="form"><h2>Форма</h2></div>
+    <form action="URL_отправки_данных" method="POST">
+
+        <label>
+            ФИО:<br>
+            <input name="field-name-1" value="">
+        </label><br>
+
+        <label>
+            Номер телефона:<br>
+            <input name="field-email"
+                value=""
+                type="tel">
+        </label><br>
+
+        <label>
+            Email:<br>
+            <input name="field-email"
+                value=""
+                type="email">
+        </label><br>
+
+        <label>
+            Дата рождения:<br>
+            <input name="field-date"
+                value=""
+                type="date">
+        </label><br>
+
+        Пол:<br>
+        <label><input type="radio" checked="checked"
+                    name="radio-group-1" value="Значение1">
+            Женский</label>
+        <label><input type="radio"
+                    name="radio-group-1" value="Значение2">
+            Мужской</label><br>
+
+        <label>
+            Любимый язык программирования:
+            <br>
+            <select name="field-name-4[]"
+                    multiple="multiple">
+                <option value="Значение1">Pascal</option>
+                <option value="Значение2" selected="selected">C
+                <option value="Значение3" selected="selected">C++
+                <option value="Значение3" selected="selected">JavaScript
+                <option value="Значение3" selected="selected">PHP
+                <option value="Значение3" selected="selected">Python
+                <option value="Значение3" selected="selected">Java
+                <option value="Значение3" selected="selected">Haskel
+                <option value="Значение3" selected="selected">Clojure
+                <option value="Значение3" selected="selected">Prolog
+                <option value="Значение3" selected="selected">Scala
+            </select>
+        </label><br>
+
+        <label>
+            Биография:<br>
+            <textarea name="field-name-2"></textarea>
+        </label><br>
+
+        С контрактом ознакомлен:<br>
+        <label><input type="checkbox" checked="checked" name="check-1">
+        </label><br>
+        <input type="submit" value="Сохранить">
+
+    </form>
+
+    <footer>
+        <p>© Чупрова София</p>
+    </footer>
+
+</body>
+</div>
+
+</html>
