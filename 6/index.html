@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <title> Calculator </title>
+</head>
+
+<body>
+    <fieldset>
+    <form>
+        <p> Количество товара: </p>
+        <input name="amount" type="number"> 
+        <br>
+
+        <p> Вид товара: </p>
+        <div id="myradios">
+            <label><input type="radio" name="goods" value="g_1" checked="checked"> Кактус (300) </label>
+            <label><input type="radio" name="goods" value="g_2"> Сухоцветы (750) </label>
+            <label><input type="radio" name="goods" value="g_3"> Хризантемы (1234) </label>
+            <label><input type="radio" name="goods" value="g_4"> Розы (1789) </label>
+            <label><input type="radio" name="goods" value="g_5"> Лилии (2000) </label>
+        </div> 
+        <br>
+         
+        <select name="g_options" id="goods_options">
+            <option value="option_1"> Без чаевых </option>
+            <option value="option_2"> Чаевые (100 за ед. товара) </option>
+            <option value="option_3"> Чаевые (200 за ед. товара) </option>
+        </select>
+        <br>
+
+        <div id="checkboxes">
+            <label><input type="checkbox" name="property_1" /> +10 </label>
+            <label><input type="checkbox" name="property_2" /> +20 </label>
+            <label><input type="checkbox" name="property_3" /> +30 </label>
+        </div>
+        <br>
+
+    </form>
+
+    <div id="result">-Стоимость товара-</div>
+    </fieldset>
+</body>
+</html>
